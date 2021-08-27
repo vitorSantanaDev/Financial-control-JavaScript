@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Lato&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;600&display=swap');
 
 :root {
   --box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
@@ -16,7 +16,7 @@ body {
   justify-content: center;
   min-height: 100vh;
   margin: 0;
-  font-family: 'Lato', sans-serif;
+  font-family: 'Poppins', sans-serif;
   background-image: url(../image/Group\ 6.svg);
   background-size: cover;
   background-position: center;
@@ -26,12 +26,11 @@ body {
 .container {
     background-color: #171717;
     border-radius: 15px;
-    padding: 24px 32px;
+    padding: 48px;
     margin: 30px auto;
-    width: 450px;
-    box-shadow: 3px -9px 50px -12px rgba(112, 112, 112, 0.4);
--webkit-box-shadow: 3px -9px 50px -12px rgba(65, 65, 65, 0.4);
--moz-box-shadow: 3px -9px 50px -12px rgba(83, 83, 83, 0.4);
+    width: 580px;
+    height: auto;
+    box-shadow: 5px 5px 15px 0px rgba(44, 44, 44, 0.2);
 }
 
 h1, h2 {
@@ -45,22 +44,25 @@ h3 {
   border-bottom: 1px solid rgb(15, 193, 233, 100%);
   padding-bottom: 10px;
   margin: 40px 0 10px;
-  color: antiquewhite;
+  color: #858585;
   font-weight: 300;
+  text-transform: uppercase;
+  font-weight: 300;
+  letter-spacing: 1px;
 }
 
 h4 {
   margin: 0;
   text-transform: uppercase;
-  color: antiquewhite;
+  color: #858585;
   font-weight: 300;
 }
 label, small{
-    color: antiquewhite;
+    color: #858585;
 }
 
 .inc-exp-container {
-  background-color: #0d0d0d;
+  background-color: #1b1b1b;
   box-shadow: var(--box-shadow);
   padding: 20px;
   display: flex;
@@ -88,7 +90,7 @@ label, small{
 }
 
 .money.minus {
-  color: rgb(255, 61, 61);
+  color: #e74c3c;
 }
 
 label {
@@ -98,26 +100,28 @@ label {
 
 input[type='text'],
 input[type='number'] {
-  border: 1px solid rgb(15, 193, 233, 100%);
   border-radius: 2px;
   display: block;
   font-size: 16px;
   padding: 10px;
   width: 100%;
+  outline: none;
+  border: 0;
 }
 
 .btn {
   cursor: pointer;
   background-color: rgb(15, 193, 233);
   box-shadow: var(--box-shadow);
-  color: #1b1b1b;
+  color: #fff;
+  text-transform: uppercase;
   border: 0;
   display: block;
   font-size: 16px;
-  margin: 10px 0 30px;
+  margin: 20px 0 30px;
   padding: 10px;
   width: 100%;
-  border-radius: 10px;
+  border-radius: 5px;
 }
 
 .btn:focus,
@@ -132,7 +136,7 @@ input[type='number'] {
 }
 
 .transactions li {
-  background-color: #0d0d0d;
+  background-color: #1b1b1b;
   box-shadow: var(--box-shadow);
   color: rgb(15, 193, 233, 100%);
   display: flex;
@@ -157,7 +161,7 @@ input[type='number'] {
   color: #fff;
   font-size: 20px;
   line-height: 20px;
-  padding: 2px 5px;
+  padding: 8px;
   position: absolute;
   top: 50%;
   left: 0;
